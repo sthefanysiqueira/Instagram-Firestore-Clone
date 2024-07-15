@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AA7814D2C3ADB19006A4B3F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7814C2C3ADB19006A4B3F /* LoginController.swift */; };
+		8AA7814F2C3ADB28006A4B3F /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7814E2C3ADB28006A4B3F /* RegistrationController.swift */; };
+		8AD706812C3DA62100B27474 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD706802C3DA62100B27474 /* CustomTextField.swift */; };
 		8ADC6E132C2B2DA40052626E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E122C2B2DA40052626E /* AppDelegate.swift */; };
 		8ADC6E152C2B2DA40052626E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E142C2B2DA40052626E /* SceneDelegate.swift */; };
 		8ADC6E172C2B2DA40052626E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E162C2B2DA40052626E /* ViewController.swift */; };
@@ -14,9 +17,19 @@
 		8ADC6E1C2C2B2DA40052626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADC6E1B2C2B2DA40052626E /* Assets.xcassets */; };
 		8ADC6E1F2C2B2DA40052626E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8ADC6E1E2C2B2DA40052626E /* Base */; };
 		8ADC6E2F2C2B316C0052626E /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E2E2C2B316C0052626E /* MainTabController.swift */; };
+		8ADC6E332C2C394D0052626E /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E322C2C394D0052626E /* FeedController.swift */; };
+		8ADC6E352C2C39920052626E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E342C2C39920052626E /* SearchController.swift */; };
+		8ADC6E372C2C39B40052626E /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E362C2C39B40052626E /* ImageSelectorController.swift */; };
+		8ADC6E392C2C39C70052626E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E382C2C39C70052626E /* NotificationController.swift */; };
+		8ADC6E3B2C2C39D30052626E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E3A2C2C39D30052626E /* ProfileController.swift */; };
+		8ADC6E3D2C3406430052626E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E3C2C3406430052626E /* FeedCell.swift */; };
+		8ADC6E3F2C3408F70052626E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E3E2C3408F70052626E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8AA7814C2C3ADB19006A4B3F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8AA7814E2C3ADB28006A4B3F /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		8AD706802C3DA62100B27474 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		8ADC6E0F2C2B2DA40052626E /* Instagram-Firestore-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram-Firestore-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADC6E122C2B2DA40052626E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ADC6E142C2B2DA40052626E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,13 @@
 		8ADC6E1E2C2B2DA40052626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ADC6E202C2B2DA40052626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ADC6E2E2C2B316C0052626E /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		8ADC6E322C2C394D0052626E /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		8ADC6E342C2C39920052626E /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		8ADC6E362C2C39B40052626E /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		8ADC6E382C2C39C70052626E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8ADC6E3A2C2C39D30052626E /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		8ADC6E3C2C3406430052626E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		8ADC6E3E2C3408F70052626E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AA7814B2C3ADAB2006A4B3F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8AA7814C2C3ADB19006A4B3F /* LoginController.swift */,
+				8AA7814E2C3ADB28006A4B3F /* RegistrationController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		8ADC6E062C2B2DA30052626E = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +107,7 @@
 		8ADC6E262C2B2E7C0052626E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8ADC6E3E2C3408F70052626E /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -92,7 +122,13 @@
 		8ADC6E2A2C2B30B90052626E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8AA7814B2C3ADAB2006A4B3F /* Authentication */,
 				8ADC6E2E2C2B316C0052626E /* MainTabController.swift */,
+				8ADC6E322C2C394D0052626E /* FeedController.swift */,
+				8ADC6E342C2C39920052626E /* SearchController.swift */,
+				8ADC6E362C2C39B40052626E /* ImageSelectorController.swift */,
+				8ADC6E382C2C39C70052626E /* NotificationController.swift */,
+				8ADC6E3A2C2C39D30052626E /* ProfileController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +143,8 @@
 		8ADC6E2C2C2B30C00052626E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8ADC6E3C2C3406430052626E /* FeedCell.swift */,
+				8AD706802C3DA62100B27474 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,10 +227,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD706812C3DA62100B27474 /* CustomTextField.swift in Sources */,
 				8ADC6E172C2B2DA40052626E /* ViewController.swift in Sources */,
+				8AA7814D2C3ADB19006A4B3F /* LoginController.swift in Sources */,
+				8ADC6E3D2C3406430052626E /* FeedCell.swift in Sources */,
+				8ADC6E372C2C39B40052626E /* ImageSelectorController.swift in Sources */,
+				8ADC6E392C2C39C70052626E /* NotificationController.swift in Sources */,
+				8ADC6E352C2C39920052626E /* SearchController.swift in Sources */,
 				8ADC6E132C2B2DA40052626E /* AppDelegate.swift in Sources */,
+				8ADC6E3B2C2C39D30052626E /* ProfileController.swift in Sources */,
+				8ADC6E332C2C394D0052626E /* FeedController.swift in Sources */,
 				8ADC6E2F2C2B316C0052626E /* MainTabController.swift in Sources */,
+				8ADC6E3F2C3408F70052626E /* Extensions.swift in Sources */,
 				8ADC6E152C2B2DA40052626E /* SceneDelegate.swift in Sources */,
+				8AA7814F2C3ADB28006A4B3F /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
