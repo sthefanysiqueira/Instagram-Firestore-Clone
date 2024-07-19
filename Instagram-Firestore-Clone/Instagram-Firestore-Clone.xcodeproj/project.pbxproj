@@ -10,6 +10,7 @@
 		8AA7814D2C3ADB19006A4B3F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7814C2C3ADB19006A4B3F /* LoginController.swift */; };
 		8AA7814F2C3ADB28006A4B3F /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7814E2C3ADB28006A4B3F /* RegistrationController.swift */; };
 		8AD706812C3DA62100B27474 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD706802C3DA62100B27474 /* CustomTextField.swift */; };
+		8AD706832C46DA2400B27474 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD706822C46DA2400B27474 /* AuthenticationViewModel.swift */; };
 		8ADC6E132C2B2DA40052626E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E122C2B2DA40052626E /* AppDelegate.swift */; };
 		8ADC6E152C2B2DA40052626E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E142C2B2DA40052626E /* SceneDelegate.swift */; };
 		8ADC6E172C2B2DA40052626E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC6E162C2B2DA40052626E /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		8AA7814C2C3ADB19006A4B3F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		8AA7814E2C3ADB28006A4B3F /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		8AD706802C3DA62100B27474 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8AD706822C46DA2400B27474 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		8ADC6E0F2C2B2DA40052626E /* Instagram-Firestore-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram-Firestore-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADC6E122C2B2DA40052626E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ADC6E142C2B2DA40052626E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		8ADC6E2B2C2B30BB0052626E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8AD706822C46DA2400B27474 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				8ADC6E3D2C3406430052626E /* FeedCell.swift in Sources */,
 				8ADC6E372C2C39B40052626E /* ImageSelectorController.swift in Sources */,
 				8ADC6E392C2C39C70052626E /* NotificationController.swift in Sources */,
+				8AD706832C46DA2400B27474 /* AuthenticationViewModel.swift in Sources */,
 				8ADC6E352C2C39920052626E /* SearchController.swift in Sources */,
 				8ADC6E132C2B2DA40052626E /* AppDelegate.swift in Sources */,
 				8ADC6E3B2C2C39D30052626E /* ProfileController.swift in Sources */,
