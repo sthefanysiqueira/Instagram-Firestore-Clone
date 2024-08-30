@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4A8D1C2C7F40FD00EDB20A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A8D1B2C7F40FD00EDB20A /* UserService.swift */; };
+		8A4A8D1E2C7F415900EDB20A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A8D1D2C7F415900EDB20A /* Constants.swift */; };
+		8A4A8D242C80BDF400EDB20A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A8D232C80BDF400EDB20A /* User.swift */; };
 		8A7AD0D62C6896AB00B588F1 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7AD0D52C6896AB00B588F1 /* ImageUploader.swift */; };
 		8A7AD0D82C6896BB00B588F1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7AD0D72C6896BB00B588F1 /* AuthService.swift */; };
 		8AA7814D2C3ADB19006A4B3F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7814C2C3ADB19006A4B3F /* LoginController.swift */; };
@@ -35,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		19E8785158BB103B6A2DDE20 /* Pods-Instagram-Firestore-Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-Firestore-Clone.release.xcconfig"; path = "Target Support Files/Pods-Instagram-Firestore-Clone/Pods-Instagram-Firestore-Clone.release.xcconfig"; sourceTree = "<group>"; };
+		8A4A8D1B2C7F40FD00EDB20A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		8A4A8D1D2C7F415900EDB20A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A4A8D232C80BDF400EDB20A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8A7AD0D52C6896AB00B588F1 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = SOURCE_ROOT; };
 		8A7AD0D72C6896BB00B588F1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = SOURCE_ROOT; };
 		8AA7814C2C3ADB19006A4B3F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				8ADC6E3E2C3408F70052626E /* Extensions.swift */,
+				8A4A8D1D2C7F415900EDB20A /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -146,6 +153,7 @@
 			children = (
 				8A7AD0D52C6896AB00B588F1 /* ImageUploader.swift */,
 				8A7AD0D72C6896BB00B588F1 /* AuthService.swift */,
+				8A4A8D1B2C7F40FD00EDB20A /* UserService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -185,6 +193,7 @@
 		8ADC6E2D2C2B30C40052626E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8A4A8D232C80BDF400EDB20A /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -332,12 +341,15 @@
 				8AD706832C46DA2400B27474 /* AuthenticationViewModel.swift in Sources */,
 				8ADC6E352C2C39920052626E /* SearchController.swift in Sources */,
 				8ADC6E132C2B2DA40052626E /* AppDelegate.swift in Sources */,
+				8A4A8D242C80BDF400EDB20A /* User.swift in Sources */,
 				8ADC6E3B2C2C39D30052626E /* ProfileController.swift in Sources */,
+				8A4A8D1E2C7F415900EDB20A /* Constants.swift in Sources */,
 				8ADC6E332C2C394D0052626E /* FeedController.swift in Sources */,
 				8ADC6E2F2C2B316C0052626E /* MainTabController.swift in Sources */,
 				8ADC6E3F2C3408F70052626E /* Extensions.swift in Sources */,
 				8A7AD0D62C6896AB00B588F1 /* ImageUploader.swift in Sources */,
 				8A7AD0D82C6896BB00B588F1 /* AuthService.swift in Sources */,
+				8A4A8D1C2C7F40FD00EDB20A /* UserService.swift in Sources */,
 				8AE4F6DC2C776E6700EEF8A5 /* ProfileCell.swift in Sources */,
 				8ADC6E152C2B2DA40052626E /* SceneDelegate.swift in Sources */,
 				8AA7814F2C3ADB28006A4B3F /* RegistrationController.swift in Sources */,
