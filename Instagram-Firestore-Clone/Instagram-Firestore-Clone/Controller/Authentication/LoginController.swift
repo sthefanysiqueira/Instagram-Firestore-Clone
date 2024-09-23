@@ -7,11 +7,16 @@
 
 import UIKit
 
+protocol AuthenticationDelegate: class {
+    func authenticationDidComplete()
+}
+
 class LoginController: UIViewController {
     
     // MARK: - Properties
     
     private var viewModel = LoginViewModel()
+    weak var delegate: AuthenticationDelegate?
     
     private let iconImage: UIImageView = {
         
@@ -79,12 +84,14 @@ class LoginController: UIViewController {
                 return
             }
             
+            self.delegate?.authenticationDidComplete()
             self.dismiss(animated: true, completion: nil)
         }
     }
     
     @objc func handleShowSignUp() {
         let controller = RegistrationController() // cria a instance para mostrar a página de registro
+        controller.delegate = delegate
         navigationController?.pushViewController(controller, animated: true) //Animação de arrastar para a direita
     }
     
