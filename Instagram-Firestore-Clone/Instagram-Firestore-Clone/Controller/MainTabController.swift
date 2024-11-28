@@ -87,9 +87,13 @@ class MainTabController: UITabBarController {
     
     func didFinishPickingMedia(_ picker: YPImagePicker) {
         picker.didFinishPicking { items, _ in
-            picker.dismiss(animated: true) {
+            picker.dismiss(animated: false) {
                 guard let selectedImage = items.singlePhoto?.image else { return }
-                print("DEBUG: Selected image is \(selectedImage)")
+                
+                let controller = UploadPostController()
+                let nav = UINavigationController(rootViewController: controller)
+                nav.modalPresentationStyle = .fullScreen
+                self.present(nav, animated: false, completion: nil)
             }
         }
     }
@@ -109,7 +113,7 @@ extension MainTabController: AuthenticationDelegate {
 extension MainTabController: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         let index = viewControllers?.firstIndex(of: viewController)
-
+        
         if index == 2 {
             var config = YPImagePickerConfiguration()
             config.library.mediaType = .photo
